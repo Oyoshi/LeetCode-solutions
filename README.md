@@ -7,6 +7,7 @@ My solutions of LeetCode algorithmic problems.
   1. [Two Sum](#twosum)
   2. [Add Two Numbers](#twonumbers)
   3. [Longest Substring Without Repeating Characters](#longestsubstring)
+  7. [Reverse Integer](#reverseinteger)
   190. [Reverse Bits](#reversebits)
 
 ### <a name='twosum'>1. [Two Sum](https://leetcode.com/problems/two-sum/)</a>
@@ -30,6 +31,12 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 Given a string, find the length of the longest substring without repeating characters.
 
 **Solution**: Not yet :(
+
+### <a name='reverseinteger'>7. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)</a>
+
+Given a 32-bit signed integer, reverse digits of an integer.
+
+**Solution**: [reverse_bits.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/reverse_integer.cpp)
 
 ### <a name='reversebits'>190. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)</a>
 
