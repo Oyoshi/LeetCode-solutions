@@ -1,3 +1,5 @@
+#include <cstdint>
+
 class Solution {
 public:
     static constexpr unsigned char LOOKUP_TABLE[] = {

@@ -4,10 +4,12 @@ My solutions of LeetCode algorithmic problems.
 
 ### Table of Contents
 
-  1. [Two Sum](#twosum)
-  2. [Add Two Numbers](#twonumbers)
-  3. [Longest Substring Without Repeating Characters](#longestsubstring)
-  7. [Reverse Integer](#reverseinteger)
+  1.   [Two Sum](#twosum)
+  2.   [Add Two Numbers](#twonumbers)
+  3.   [Longest Substring Without Repeating Characters](#longestsubstringwithoutrepeatingcharacters)
+  7.   [Reverse Integer](#reverseinteger)
+  26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
+  27.  [Remove Element](#removeelement)
   190. [Reverse Bits](#reversebits)
 
 ### <a name='twosum'>1. [Two Sum](https://leetcode.com/problems/two-sum/)</a>
@@ -26,7 +28,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Solution**: Not yet :(
 
-### <a name='longestsubstring'>3. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)</a>
+### <a name='longestsubstringwithoutrepeatingcharacters'>3. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)</a>
 
 Given a string, find the length of the longest substring without repeating characters.
 
@@ -36,7 +38,26 @@ Given a string, find the length of the longest substring without repeating chara
 
 Given a 32-bit signed integer, reverse digits of an integer.
 
+**Notes**
+
+TODO - finish this section
+
 **Solution**: [reverse_bits.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/reverse_integer.cpp)
+
+### <a name='removeduplicatesfromsortedarray'>26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)</a>
+
+Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Solution**: [remove_duplicates_from_sorted_array.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_duplicates_from_sorted_array.cpp)
+
+### <a name='removeelement'>27. [Remove Element](https://leetcode.com/problems/remove-element/)</a>
+
+Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+
+**Solution**: [remove_element.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element.cpp)
 
 ### <a name='reversebits'>190. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)</a>
 
