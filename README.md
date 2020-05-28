@@ -40,7 +40,18 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 **Notes**
 
-TODO - finish this section
+Overflow check based on range of 32-bit signed integer which is `[-2^31; 2^31 - 1]`.
+
+`2^31 - 1 = 2147483648 - 1 = 2147483647`
+`2147483647 / 10 = 214748364 + 7`
+
+Last digit is 7, so overflow might happened only if digit is greater than 7.
+
+Same approach can be used for negative values: 
+
+`-2^31 = -2147483648`
+
+The last digit is 8, so overflow might happened only if digit is greater than 8 (or less than -8 if we consider a sign).
 
 **Solution**: [reverse_bits.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/reverse_integer.cpp)
 
