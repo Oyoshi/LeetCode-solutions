@@ -8,6 +8,7 @@ My solutions of LeetCode algorithmic problems.
   2.   [Add Two Numbers](#twonumbers)
   3.   [Longest Substring Without Repeating Characters](#longestsubstringwithoutrepeatingcharacters)
   7.   [Reverse Integer](#reverseinteger)
+  9.   [Palindrome Number](#palindromenumber)
   26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
   27.  [Remove Element](#removeelement)
   190. [Reverse Bits](#reversebits)
@@ -54,6 +55,12 @@ Same approach can be used for negative values:
 The last digit is 8, so overflow might happened only if digit is greater than 8 (or less than -8 if we consider a sign).
 
 **Solution**: [reverse_bits.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/reverse_integer.cpp)
+
+### <a name='palindromenumber'>9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)</a>
+
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+**Solution**: [palindrome_number.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/palindrome_number.cpp)
 
 ### <a name='removeduplicatesfromsortedarray'>26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)</a>
 
