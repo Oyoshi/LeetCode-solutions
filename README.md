@@ -89,7 +89,7 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 **Solution**: [remove_element.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element.cpp)
 
-### <a name='#implementstrstr'>28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)</a>
+### <a name='implementstrstr'>28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)</a>
 
 Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
