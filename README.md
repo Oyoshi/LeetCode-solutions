@@ -9,8 +9,10 @@ My solutions of LeetCode algorithmic problems.
   3.   [Longest Substring Without Repeating Characters](#longestsubstringwithoutrepeatingcharacters)
   7.   [Reverse Integer](#reverseinteger)
   9.   [Palindrome Number](#palindromenumber)
+  21.  [Merge Two Sorted Lists](#mergetwosortedlists)
   26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
   27.  [Remove Element](#removeelement)
+  28.  [Implement strStr()](#implementstrstr)
   190. [Reverse Bits](#reversebits)
 
 ### <a name='twosum'>1. [Two Sum](https://leetcode.com/problems/two-sum/)</a>
@@ -66,6 +68,12 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 **Solution**: [palindrome_number.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/palindrome_number.cpp)
 
+### <a name='#mergetwosortedlists'>21. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</a>
+
+Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
+
+**Solution**: [merge_two_sorted_lists.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/merge_two_sorted_lists.cpp)
+
 ### <a name='removeduplicatesfromsortedarray'>26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)</a>
 
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
@@ -80,6 +88,13 @@ Do not allocate extra space for another array, you must do this by modifying the
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 **Solution**: [remove_element.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element.cpp)
+
+### <a name='#implementstrstr'>28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)</a>
+
+Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+**Solution**: [implement_strstr.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/implement_strstr.cpp)
 
 ### <a name='reversebits'>190. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)</a>
 
