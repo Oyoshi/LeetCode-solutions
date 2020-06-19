@@ -13,6 +13,7 @@ My solutions of LeetCode algorithmic problems.
   26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
   27.  [Remove Element](#removeelement)
   28.  [Implement strStr()](#implementstrstr)
+  35.  [Search Insert Position](#searchinsertposition)
   50.  [Pow(x, n)](#powxn)
   190. [Reverse Bits](#reversebits)
 
@@ -96,6 +97,13 @@ Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
 **Solution**: [implement_strstr.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/implement_strstr.cpp)
+
+### <a name='searchinsertposition'>35. [Search Insert Position](https://leetcode.com/problems/search-insert-position/)</a>
+
+Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You may assume no duplicates in the array.
+
+**Solution**: [search_insert_position.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position.cpp)
 
 ### <a name='powxn'>50. [Pow(x, n)](https://leetcode.com/problems/powx-n/)</a>
 
