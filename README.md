@@ -13,6 +13,7 @@ My solutions of LeetCode algorithmic problems.
   26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
   27.  [Remove Element](#removeelement)
   28.  [Implement strStr()](#implementstrstr)
+  50.  [Pow(x, n)](#powxn)
   190. [Reverse Bits](#reversebits)
 
 ### <a name='twosum'>1. [Two Sum](https://leetcode.com/problems/two-sum/)</a>
@@ -95,6 +96,12 @@ Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
 **Solution**: [implement_strstr.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/implement_strstr.cpp)
+
+### <a name='powxn'>50. [Pow(x, n)](https://leetcode.com/problems/powx-n/)</a>
+
+Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which calculates x raised to the power n (x^n).
+
+**Solution**: [powxn.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/powxn.cpp)
 
 ### <a name='reversebits'>190. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)</a>
 
