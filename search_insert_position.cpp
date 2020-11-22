@@ -21,11 +21,4 @@ public:
         
         return left;
     }
-
-    /*
-     * Alternative solution which uses STL algorithm
-     * int searchInsert(std::vector<int>& nums, int target) {
-     *     return std::lower_bound(nums.cbegin(), nums.cend(), target) - nums.cbegin();
-     * }
-     */
 };

@@ -81,7 +81,7 @@ Merge two sorted linked lists and return it as a new sorted list. The new list s
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
-**Solution**: [remove_duplicates_from_sorted_array.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_duplicates_from_sorted_array.cpp)
+**Solution**: [remove_duplicates_from_sorted_array.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_duplicates_from_sorted_array.cpp),[remove_duplicates_from_sorted_array_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_duplicates_from_sorted_array_stl.cpp)
 
 ### <a name='removeelement'>27. [Remove Element](https://leetcode.com/problems/remove-element/)</a>
 
@@ -89,7 +89,7 @@ Given an array nums and a value val, remove all instances of that value in-place
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
-**Solution**: [remove_element.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element.cpp)
+**Solution**: [remove_element.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element.cpp),[remove_element_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/remove_element_stl.cpp)
 
 ### <a name='implementstrstr'>28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)</a>
 
@@ -103,7 +103,7 @@ Return the index of the first occurrence of needle in haystack, or -1 if needle 
 Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 You may assume no duplicates in the array.
 
-**Solution**: [search_insert_position.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position.cpp)
+**Solution**: [search_insert_position.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position.cpp),[search_insert_position_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position_stl.cpp)
 
 ### <a name='powxn'>50. [Pow(x, n)](https://leetcode.com/problems/powx-n/)</a>
 

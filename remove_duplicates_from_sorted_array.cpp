@@ -15,11 +15,4 @@ public:
         }
         return i + 1;
     }
-    
-    /*
-     * Alternative solution which uses STL algorithm
-     * int removeDuplicates(vector<int>& nums) {
-     *     return std::distance(nums.begin(), nums.erase(std::unique(nums.begin(), nums.end()), nums.end()));
-     * }
-     */
 };

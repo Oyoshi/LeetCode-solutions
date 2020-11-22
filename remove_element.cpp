@@ -12,11 +12,4 @@ public:
         }
         return i;
     }
-    
-    /*
-     * Alternative solution which uses STL algorithm
-     * int removeElement(vector<int>& nums, int val) {
-     *     return std::distance(nums.begin(), std::remove(nums.begin(), nums.end(), val));
-     * }
-     */
 };
