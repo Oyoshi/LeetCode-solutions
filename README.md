@@ -15,6 +15,7 @@ My solutions of LeetCode algorithmic problems.
   27.  [Remove Element](#removeelement)
   28.  [Implement strStr()](#implementstrstr)
   35.  [Search Insert Position](#searchinsertposition)
+  48.  [Rotate Image](#rotateimage)
   50.  [Pow(x, n)](#powxn)
   190. [Reverse Bits](#reversebits)
 
@@ -71,7 +72,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 **Solution**: [palindrome_number.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/palindrome_number.cpp)
 
-### <a name='#validparentheses'>20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</a>
+### <a name='validparentheses'>20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</a>
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 An input string is valid if:
@@ -81,7 +82,7 @@ An input string is valid if:
 
 **Solution**: [valid_parentheses.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/valid_parentheses.cpp)
 
-### <a name='#mergetwosortedlists'>21. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</a>
+### <a name='mergetwosortedlists'>21. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</a>
 
 Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
 
@@ -115,6 +116,20 @@ Given a sorted array and a target value, return the index if the target is found
 You may assume no duplicates in the array.
 
 **Solution**: [search_insert_position.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position.cpp), [search_insert_position_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position_stl.cpp)
+
+### <a name='rotateimage'>48. [Rotate Image](https://leetcode.com/problems/rotate-image/)</a>
+
+You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
+
+**Notes**
+
+Solution based on observation that 90 degrees matrix rotation is a composition of two consecutive steps:
+
+  1. transpose O(n^2)
+  2. reverse each row O(n^2)
+
+**Solution**: [rotate_image.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/rotate_image.cpp)
 
 ### <a name='powxn'>50. [Pow(x, n)](https://leetcode.com/problems/powx-n/)</a>
 
