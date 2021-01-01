@@ -15,6 +15,7 @@ My solutions of LeetCode algorithmic problems.
   27.  [Remove Element](#removeelement)
   28.  [Implement strStr()](#implementstrstr)
   35.  [Search Insert Position](#searchinsertposition)
+  46.  [Permutations](#permutations)
   48.  [Rotate Image](#rotateimage)
   50.  [Pow(x, n)](#powxn)
   190. [Reverse Bits](#reversebits)
@@ -116,6 +117,17 @@ Given a sorted array and a target value, return the index if the target is found
 You may assume no duplicates in the array.
 
 **Solution**: [search_insert_position.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position.cpp), [search_insert_position_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/search_insert_position_stl.cpp)
+
+### <a name='permutations'>46. [Permutations](https://leetcode.com/problems/permutations/)</a>
+
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+All the integers of nums are unique.
+
+**Notes**
+
+Used Heap's algorithm in non-recursive version.
+
+**Solution**: [permutations.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/permutations.cpp), [permutations_stl.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/permutations_stl.cpp)
 
 ### <a name='rotateimage'>48. [Rotate Image](https://leetcode.com/problems/rotate-image/)</a>
 
