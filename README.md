@@ -34,7 +34,7 @@ The digits are stored in reverse order and each of their nodes contain a single 
 Add the two numbers and return it as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
-**Solution**: Not yet :(
+**Solution**: [add_two_numbers.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/add_two_numbers.cpp)
 
 ### <a name='longestsubstringwithoutrepeatingcharacters'>3. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)</a>
 
