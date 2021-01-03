@@ -9,6 +9,7 @@ My solutions of LeetCode algorithmic problems.
   3.   [Longest Substring Without Repeating Characters](#longestsubstringwithoutrepeatingcharacters)
   7.   [Reverse Integer](#reverseinteger)
   9.   [Palindrome Number](#palindromenumber)
+  13.  [Roman To Integer](#romantointeger)
   20.  [Valid Parentheses](#validparentheses)
   21.  [Merge Two Sorted Lists](#mergetwosortedlists)
   26.  [Remove Duplicates from Sorted Array](#removeduplicatesfromsortedarray)
@@ -72,6 +73,12 @@ The last digit is 8, so overflow might happened only if digit is greater than 8 
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
 **Solution**: [palindrome_number.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/palindrome_number.cpp)
+
+### <a name='romantointeger'>13. [Roman To Integer](https://leetcode.com/problems/roman-to-integer/)</a>
+
+Given a roman numeral, convert it to an integer.
+
+**Solution**: [roman_to_integer.cpp](https://github.com/Oyoshi/LeetCode-solutions/blob/master/roman_to_integer.cpp)
 
 ### <a name='validparentheses'>20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</a>
 
